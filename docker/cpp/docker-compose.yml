@@ -1,0 +1,21 @@
+
+services:
+  cpp-dev:
+    build: .
+    container_name: cpp-dev-env
+    volumes:
+      # Monta todo tu directorio de trabajo
+      - ../..:/workspace
+    working_dir: /workspace
+    # Mantener container corriendo
+    stdin_open: true
+    tty: true
+    # Capabilities para profiling (perf, etc)
+    cap_add:
+      - SYS_PTRACE
+      - SYS_ADMIN
+    # Network mode para proyectos de networking
+    network_mode: bridge
+    # Límites opcionales (para simular constraints)
+    # mem_limit: 512m
+    # cpus: 2
