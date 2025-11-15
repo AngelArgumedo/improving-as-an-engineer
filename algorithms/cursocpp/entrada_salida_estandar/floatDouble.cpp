@@ -39,5 +39,7 @@ int main() {
   std::cout << "El area del triangulo es de: " << area << std::endl;
   std::cout << "El perimetro del triangulo es de: " << perimetro << std::endl;
 
+  // podemos castear o hacer conversion forzada
+  // perimetro = (int)(lado1 + lado2 + lado3);
   return 0;
 }
