@@ -11,7 +11,8 @@ int main() {
   int personas;
 
   std::cout
-      << "Este programa te permite decidir cuantas personas entran a un hotel.";
+      << "Este programa te permite decidir cuantas personas entran a un hotel."
+      << std::endl;
 
   std::cout << "Escribe cuantas habitaciones hay en el hotel: ";
   std::cin >> habitaciones;
