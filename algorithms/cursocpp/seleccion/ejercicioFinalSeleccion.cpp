@@ -33,8 +33,18 @@ int main() {
     char columna = eleccionJ1[1];
     char letra = eleccionJ1[2];
 
+    if (fila != 'A' && fila != 'B' && fila != 'C') {
+      if (columna != '1' && columna != '2' && columna != '3') {
+        std::cout << "la columna y la fila son validas" << std::endl;
+      } else {
+        std::cout << "No escribiste una columna valida." << std::endl;
+      }
+    } else {
+      std::cout << "no escribiste una fila valida." << std::endl;
+    }
   } else {
     std::cout << "no seleccionaste nada" << std::endl;
   }
+
   return 0;
 }
