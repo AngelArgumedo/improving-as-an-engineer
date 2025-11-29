@@ -35,6 +35,7 @@ int main() {
 
     if (fila != 'A' && fila != 'B' && fila != 'C') {
       if (columna != '1' && columna != '2' && columna != '3') {
+        // aqui entra toda la logica
         std::cout << "la columna y la fila son validas" << std::endl;
       } else {
         std::cout << "No escribiste una columna valida." << std::endl;
