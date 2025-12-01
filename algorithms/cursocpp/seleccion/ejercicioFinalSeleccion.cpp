@@ -49,6 +49,11 @@ int main() {
           entrada += fila;
           entrada += columna;
 
+          std::cout << "lo que entra es: " << entrada << std::endl;
+          std::string entradaIgual = (entrada == "B2") ? "true" : "false";
+
+          std::cout << entradaIgual << std::endl;
+
           if (entrada == "A1") {
             A1 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
@@ -56,49 +61,49 @@ int main() {
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "A2") {
-            A1 = letra;
+            A2 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "A3") {
-            A1 = letra;
+            A3 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "B1") {
-            A1 = letra;
+            B1 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "B2") {
-            A1 = letra;
+            B2 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "B3") {
-            A1 = letra;
+            B3 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "C1") {
-            A1 = letra;
+            C1 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "C2") {
-            A1 = letra;
+            C2 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
           }
           if (entrada == "C3") {
-            A1 = letra;
+            C3 = letra;
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
