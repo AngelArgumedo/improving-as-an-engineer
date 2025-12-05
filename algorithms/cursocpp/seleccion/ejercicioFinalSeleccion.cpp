@@ -612,6 +612,8 @@ int main() {
             std::cout << A1 << " " << A2 << " " << A3 << std::endl;
             std::cout << B1 << " " << B2 << " " << B3 << std::endl;
             std::cout << C1 << " " << C2 << " " << C3 << std::endl;
+          } else {
+            std::cout << "ya esta ocupado" << std::endl;
           }
           if (entrada == "A2" && A2 == '#') {
             A2 = letra;
