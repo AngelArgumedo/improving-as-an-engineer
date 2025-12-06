@@ -28,7 +28,6 @@ int main() {
     std::cin >> numeroUsuario;
 
     if (numeroUsuario == numeroAdivinar) {
-      std::cout << "ganaste!!" << std::endl;
       gane = true;
       break;
     }
