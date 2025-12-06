@@ -15,5 +15,30 @@ int main() {
   }
 
   std::cout << "" << std::endl;
+
+  // ejercicio de intentos adivinar un numero con 3 intentos.
+  const int MAX_INTENTOS = 3;
+
+  int numeroAdivinar = 5;
+  int numeroUsuario;
+  bool gane = false;
+
+  for (int i; i <= MAX_INTENTOS; i++) {
+    std::cout << "Ingresa un numero: ";
+    std::cin >> numeroUsuario;
+
+    if (numeroUsuario == numeroAdivinar) {
+      std::cout << "ganaste!!" << std::endl;
+      gane = true;
+      break;
+    }
+  }
+
+  if (gane) {
+    std::cout << "ganaste!!" << std::endl;
+  } else {
+    std::cout << "Perdiste!" << std::endl;
+  }
+
   return 0;
 };
