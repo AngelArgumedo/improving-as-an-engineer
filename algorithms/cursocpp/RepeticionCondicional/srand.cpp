@@ -26,6 +26,8 @@ int main() {
     if (numeroUsuario == numeroAdivinar) {
       gane = true;
       break;
+    } else {
+      std::cout << "Sigue intentando!!" << std::endl;
     }
   }
 
